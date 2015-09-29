@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Project 3 App</string>
+    <string-array name="Options">
+        <item>Animals</item>
+        <item>Flowers</item>
+        <item>Cars</item>
+    </string-array>
+
+    <string name="title_activity_main">Project 3 App</string>
+    <string name="status_button">Status</string>
+
+    <string-array name="animals">
+        <item name="animal1">http://jimmyk.rocks/cs478/project3/animals/animal1.jpg</item>
+        <item name="animal2">http://jimmyk.rocks/cs478/project3/animals/animal2.jpg</item>
+        <item name="animal3">http://jimmyk.rocks/cs478/project3/animals/animal3.jpg</item>
+        <item name="animal4">http://jimmyk.rocks/cs478/project3/animals/animal4.jpg</item>
+        <item name="animal5">http://jimmyk.rocks/cs478/project3/animals/animal5.jpg</item>
+        <item name="animal6">http://jimmyk.rocks/cs478/project3/animals/animal6.jpg</item>
+    </string-array>
+
+    <string-array name="flowers">
+        <item name="flower1">http://youl.ink/cs478/project3/flowers/flower1.jpg</item>
+        <item name="flower2">http://youl.ink/cs478/project3/flowers/flower2.jpg</item>
+        <item name="flower3">http://youl.ink/cs478/project3/flowers/flower3.jpg</item>
+        <item name="flower4">http://youl.ink/cs478/project3/flowers/flower4.jpg</item>
+        <item name="flower5">http://youl.ink/cs478/project3/flowers/flower5.jpg</item>
+        <item name="flower6">http://youl.ink/cs478/project3/flowers/flower6.jpg</item>
+    </string-array>
+    <string-array name="cars">
+        <item name="car1">http://jimklonowski.com/cs478/project3/cars/car1.jpg</item>
+        <item name="car2">http://jimklonowski.com/cs478/project3/cars/car2.jpg</item>
+        <item name="car3">http://jimklonowski.com/cs478/project3/cars/car3.jpg</item>
+        <item name="car4">http://jimklonowski.com/cs478/project3/cars/car4.jpg</item>
+        <item name="car5">http://jimklonowski.com/cs478/project3/cars/car5.jpg</item>
+        <item name="car6">http://jimklonowski.com/cs478/project3/cars/car6.jpg</item>
+    </string-array>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/top_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        >
+
+
+        <include layout="@layout/fragment_top"
+            android:id="@+id/top"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:layout_above="@+id/status_button"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            />
+
+        <Button
+            android:id="@+id/status_button"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:text="@string/status_button"
+            android:layout_weight="1"
+
+            />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/bottom_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3" />
+</LinearLayout>
